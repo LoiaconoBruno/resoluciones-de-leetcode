@@ -617,5 +617,3 @@ Problemas de LeetCode explicados en español, con dibujo y código en Python. Un
 </details>
 <!-- indice:fin -->
 
----
-El orden sigue el roadmap de [NeetCode](https://neetcode.io). Este repo no tiene relación oficial con NeetCode ni con LeetCode. Los enunciados son de LeetCode: acá hay un resumen propio y el link.
