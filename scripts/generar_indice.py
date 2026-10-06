@@ -33,7 +33,8 @@ def fila(problema, prefijo):
     video = f"[▶️]({problema['video']})" if problema["video"] else "🔜"
     carpeta = carpeta_de(problema)
     if (carpeta / "solucion.py").exists():
-        solucion = f"[Python]({prefijo}{carpeta.name}/)"
+        ruta = carpeta.relative_to(RAIZ / problema["carpeta"]).as_posix()
+        solucion = f"[Python]({prefijo}{ruta}/)"
     else:
         solucion = "🔜"
     return (f"| {int(problema['numero'])} | [{titulo}]({problema['enunciado']}) "
@@ -72,13 +73,15 @@ def main():
             "<details>",
             f"<summary><b>{i}. {patron}</b> · {hechos}/{len(lista)}</summary>",
             "",
-            f"[Explicación y plantilla del patrón]({carpeta}/)",
+            f"[Explicación y plantilla del patrón]({carpeta}/) · "
+            f"[Todas las soluciones]({carpeta}/soluciones/)",
             "",
             tabla(lista, f"{carpeta}/"),
             "",
             "</details>",
         ]
-        reemplazar_bloque(RAIZ / carpeta / "README.md", INICIO_PATRON, FIN_PATRON, tabla(lista, ""))
+        reemplazar_bloque(RAIZ / carpeta / "README.md", INICIO_PATRON, FIN_PATRON,
+                          "📂 [Todas las soluciones](soluciones/)\n\n" + tabla(lista, ""))
 
     reemplazar_bloque(RAIZ / "README.md", INICIO_INDICE, FIN_INDICE, "\n".join(partes))
     print(f"Índice actualizado: {len(publicados)}/{len(problemas)} publicados.")

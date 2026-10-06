@@ -43,4 +43,4 @@ def buscar(problemas, numero):
 
 
 def carpeta_de(problema):
-    return RAIZ / problema["carpeta"] / f"{int(problema['numero']):04d}-{problema['slug']}"
+    return RAIZ / problema["carpeta"] / "soluciones" / f"{int(problema['numero']):04d}-{problema['slug']}"
