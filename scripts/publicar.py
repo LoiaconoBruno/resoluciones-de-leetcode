@@ -35,8 +35,8 @@ def main():
     carpeta = carpeta_de(problema)
     rel = carpeta.relative_to(RAIZ).as_posix()
     solucion = carpeta / "solucion.py"
-    if not solucion.exists():
-        sys.exit(f"Primero creá la carpeta: {COMANDO_PY} scripts/nuevo.py {numero}")
+    if not solucion.exists() or not (carpeta / "README.md").exists():
+        sys.exit(f"Primero completá la carpeta: {COMANDO_PY} scripts/nuevo.py {numero}")
     if MARCA_SOLUCION in solucion.read_text(encoding="utf-8"):
         sys.exit(f"{rel}/solucion.py todavía es la plantilla. Pegá tu solución antes de publicar.")
     if not (carpeta / "dibujo.png").exists():

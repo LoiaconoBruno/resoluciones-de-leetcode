@@ -7,7 +7,7 @@ Problemas de LeetCode explicados en español, con dibujo y código en Python. Un
 ## Cómo usar este repo
 - Las carpetas van por patrón, en el orden en que conviene estudiarlos.
 - Las explicaciones están en el README de cada patrón (qué es, cómo reconocerlo y su plantilla) y en [fundamentos](fundamentos/).
-- Dentro de cada patrón, la carpeta `soluciones/` tiene una carpeta por ejercicio con la idea, el dibujo, la solución en Python y la complejidad.
+- Dentro de cada patrón, la carpeta `soluciones/` tiene una carpeta por ejercicio con la solución en Python, la idea y la complejidad. Cuando sale el video, se suman la explicación y el dibujo.
 - 🟢 fácil · 🟡 media · 🔴 difícil (la dificultad oficial de LeetCode) · ⭐ está en la Blind 75.
 
 <!-- indice:inicio -->
