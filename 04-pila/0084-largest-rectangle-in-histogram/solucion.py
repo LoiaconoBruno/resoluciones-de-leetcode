@@ -1,7 +1,8 @@
 # 84. Largest Rectangle In Histogram (Difícil)
 # https://leetcode.com/problems/largest-rectangle-in-histogram/
 #
-# Idea: pila de barras con alturas crecientes; cuando llega una más baja, cada barra que sale ya sabe hasta dónde se extiende su rectángulo (desde el índice donde empezó hasta acá).
+# Idea: pila de barras con alturas crecientes; cuando llega una más baja, cada barra que sale ya
+#       sabe hasta dónde se extiende su rectángulo (desde el índice donde empezó hasta acá).
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

@@ -1,7 +1,8 @@
 # 71. Simplify Path (Media)
 # https://leetcode.com/problems/simplify-path/
 #
-# Idea: separo por '/' y uso una pila de carpetas: '..' saca la última, '.' y vacío no hacen nada, y cualquier otro nombre se apila.
+# Idea: separo por '/' y uso una pila de carpetas: '..' saca la última, '.' y vacío no hacen nada, y
+#       cualquier otro nombre se apila.
 # Tiempo: O(n) · Espacio: O(n)
 
 class Solution:

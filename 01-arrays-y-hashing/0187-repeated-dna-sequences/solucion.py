@@ -1,7 +1,8 @@
 # 187. Repeated DNA Sequences (Media)
 # https://leetcode.com/problems/repeated-dna-sequences/
 #
-# Idea: recorro todas las ventanas de 10 letras guardándolas en un set; si una ya estaba, va a la respuesta.
+# Idea: recorro todas las ventanas de 10 letras guardándolas en un set; si una ya estaba, va a la
+#       respuesta.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

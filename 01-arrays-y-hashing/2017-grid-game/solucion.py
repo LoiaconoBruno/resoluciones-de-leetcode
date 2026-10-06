@@ -1,7 +1,8 @@
 # 2017. Grid Game (Media)
 # https://leetcode.com/problems/grid-game/
 #
-# Idea: el robot 1 baja en alguna columna i; al robot 2 le queda lo mejor entre lo de arriba a la derecha de i y lo de abajo a la izquierda de i. Pruebo cada i con sumas prefijas y minimizo.
+# Idea: el robot 1 baja en alguna columna i; al robot 2 le queda lo mejor entre lo de arriba a la
+#       derecha de i y lo de abajo a la izquierda de i. Pruebo cada i con sumas prefijas y minimizo.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

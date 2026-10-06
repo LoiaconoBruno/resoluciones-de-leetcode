@@ -1,7 +1,8 @@
 # 838. Push Dominoes (Media)
 # https://leetcode.com/problems/push-dominoes/
 #
-# Idea: calculo una "fuerza" por posición: de izquierda a derecha la de cada 'R' (que se gasta con la distancia) y de derecha a izquierda la de cada 'L'; gana la más fuerte.
+# Idea: calculo una "fuerza" por posición: de izquierda a derecha la de cada 'R' (que se gasta con
+#       la distancia) y de derecha a izquierda la de cada 'L'; gana la más fuerte.
 # Tiempo: O(n) · Espacio: O(n)
 
 class Solution:

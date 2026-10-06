@@ -1,7 +1,8 @@
 # 88. Merge Sorted Array (Fácil)
 # https://leetcode.com/problems/merge-sorted-array/
 #
-# Idea: lleno nums1 desde el final poniendo siempre el mayor de los dos; así nunca piso un número que todavía no usé.
+# Idea: lleno nums1 desde el final poniendo siempre el mayor de los dos; así nunca piso un número
+#       que todavía no usé.
 # Tiempo: O(m + n) · Espacio: O(1)
 
 from typing import List

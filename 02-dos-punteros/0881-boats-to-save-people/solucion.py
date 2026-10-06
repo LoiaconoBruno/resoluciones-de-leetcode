@@ -1,7 +1,8 @@
 # 881. Boats to Save People (Media)
 # https://leetcode.com/problems/boats-to-save-people/
 #
-# Idea: ordeno; la persona más pesada sube siempre, y si entra con la más liviana, suben juntas (greedy con dos punteros).
+# Idea: ordeno; la persona más pesada sube siempre, y si entra con la más liviana, suben juntas
+#       (greedy con dos punteros).
 # Tiempo: O(n log n) · Espacio: O(1) extra
 
 from typing import List

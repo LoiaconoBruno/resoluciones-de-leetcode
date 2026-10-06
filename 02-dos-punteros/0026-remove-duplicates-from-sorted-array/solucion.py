@@ -1,7 +1,8 @@
 # 26. Remove Duplicates From Sorted Array (Fácil)
 # https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 #
-# Idea: como está ordenado, un número es nuevo si es distinto del último que guardé; un puntero k marca dónde va el siguiente único.
+# Idea: como está ordenado, un número es nuevo si es distinto del último que guardé; un puntero k
+#       marca dónde va el siguiente único.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

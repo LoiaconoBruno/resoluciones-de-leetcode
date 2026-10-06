@@ -1,7 +1,8 @@
 # 146. LRU Cache (Media)
 # https://leetcode.com/problems/lru-cache/
 #
-# Idea: diccionario clave -> nodo para buscar en O(1) y una lista doblemente enlazada para el orden de uso: lo usado va al final y se desaloja desde el principio.
+# Idea: diccionario clave -> nodo para buscar en O(1) y una lista doblemente enlazada para el orden
+#       de uso: lo usado va al final y se desaloja desde el principio.
 # Tiempo: O(1) por operación · Espacio: O(capacidad)
 
 class Nodo:

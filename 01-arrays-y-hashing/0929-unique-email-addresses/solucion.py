@@ -1,7 +1,8 @@
 # 929. Unique Email Addresses (Fácil)
 # https://leetcode.com/problems/unique-email-addresses/
 #
-# Idea: normalizo cada mail (en la parte local corto en el '+' y saco los puntos) y cuento cuántos distintos quedan en un set.
+# Idea: normalizo cada mail (en la parte local corto en el '+' y saco los puntos) y cuento cuántos
+#       distintos quedan en un set.
 # Tiempo: O(n · m), con m el largo de un mail · Espacio: O(n · m)
 
 from typing import List

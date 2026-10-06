@@ -1,7 +1,8 @@
 # 2. Add Two Numbers (Media)
 # https://leetcode.com/problems/add-two-numbers/
 #
-# Idea: sumo dígito a dígito como en la escuela (las listas ya vienen al revés), llevando el acarreo; sigo mientras quede algún dígito o acarreo.
+# Idea: sumo dígito a dígito como en la escuela (las listas ya vienen al revés), llevando el
+#       acarreo; sigo mientras quede algún dígito o acarreo.
 # Tiempo: O(max(n, m)) · Espacio: O(max(n, m)) (la respuesta)
 
 from typing import Optional

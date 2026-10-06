@@ -1,7 +1,8 @@
 # 1498. Number of Subsequences That Satisfy The Given Sum Condition (Media)
 # https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/
 #
-# Idea: ordeno; si el mínimo nums[izq] más el máximo nums[der] entra en target, cualquier subconjunto de lo que está entre ellos (con izq adentro) sirve: 2^(der - izq) subsecuencias.
+# Idea: ordeno; si el mínimo nums[izq] más el máximo nums[der] entra en target, cualquier
+#       subconjunto de lo que está entre ellos (con izq adentro) sirve: 2^(der - izq) subsecuencias.
 # Tiempo: O(n log n) · Espacio: O(n)
 
 from typing import List

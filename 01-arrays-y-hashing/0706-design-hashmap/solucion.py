@@ -1,7 +1,8 @@
 # 706. Design HashMap (Fácil)
 # https://leetcode.com/problems/design-hashmap/
 #
-# Idea: igual que el HashSet pero cada cubeta guarda pares [clave, valor]; put actualiza si la clave ya estaba.
+# Idea: igual que el HashSet pero cada cubeta guarda pares [clave, valor]; put actualiza si la clave
+#       ya estaba.
 # Tiempo: O(1) promedio por operación · Espacio: O(n)
 
 class MyHashMap:

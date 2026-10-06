@@ -1,7 +1,8 @@
 # 605. Can Place Flowers (Fácil)
 # https://leetcode.com/problems/can-place-flowers/
 #
-# Idea: agrego un 0 a cada punta y planto (greedy) en cada lugar vacío cuyos dos vecinos también están vacíos.
+# Idea: agrego un 0 a cada punta y planto (greedy) en cada lugar vacío cuyos dos vecinos también
+#       están vacíos.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

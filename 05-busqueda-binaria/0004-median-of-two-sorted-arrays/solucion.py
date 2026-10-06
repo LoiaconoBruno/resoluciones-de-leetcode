@@ -1,7 +1,8 @@
 # 4. Median of Two Sorted Arrays (Difícil)
 # https://leetcode.com/problems/median-of-two-sorted-arrays/
 #
-# Idea: hago búsqueda binaria sobre cuántos elementos tomo del array más corto para la "mitad izquierda"; el corte es correcto cuando todo lo de la izquierda es ≤ todo lo de la derecha.
+# Idea: hago búsqueda binaria sobre cuántos elementos tomo del array más corto para la "mitad
+#       izquierda"; el corte es correcto cuando todo lo de la izquierda es ≤ todo lo de la derecha.
 # Tiempo: O(log(min(n, m))) · Espacio: O(1)
 
 from typing import List

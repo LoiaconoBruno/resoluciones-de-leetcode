@@ -1,7 +1,8 @@
 # 148. Sort List (Media)
 # https://leetcode.com/problems/sort-list/
 #
-# Idea: merge sort sobre la lista: corto en el medio (lenta/rápida), ordeno cada mitad recursivamente y las mezclo.
+# Idea: merge sort sobre la lista: corto en el medio (lenta/rápida), ordeno cada mitad
+#       recursivamente y las mezclo.
 # Tiempo: O(n log n) · Espacio: O(log n) de recursión
 
 from typing import Optional

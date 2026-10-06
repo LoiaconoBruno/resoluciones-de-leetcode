@@ -1,7 +1,8 @@
 # 1472. Design Browser History (Media)
 # https://leetcode.com/problems/design-browser-history/
 #
-# Idea: guardo el historial en un array con un índice "actual" y un "último válido"; visit pisa lo que había adelante, y back/forward solo mueven el índice dentro de los límites.
+# Idea: guardo el historial en un array con un índice "actual" y un "último válido"; visit pisa lo
+#       que había adelante, y back/forward solo mueven el índice dentro de los límites.
 # Tiempo: O(1) por operación (amortizado en visit) · Espacio: O(n)
 
 class BrowserHistory:

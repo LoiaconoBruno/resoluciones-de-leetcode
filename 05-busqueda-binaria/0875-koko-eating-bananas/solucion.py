@@ -1,7 +1,8 @@
 # 875. Koko Eating Bananas (Media)
 # https://leetcode.com/problems/koko-eating-bananas/
 #
-# Idea: búsqueda binaria sobre la respuesta: para una velocidad v, las horas son la suma de ceil(pila / v). Busco la menor v que entra en h horas.
+# Idea: búsqueda binaria sobre la respuesta: para una velocidad v, las horas son la suma de
+#       ceil(pila / v). Busco la menor v que entra en h horas.
 # Tiempo: O(n log M), con M la pila más grande · Espacio: O(1)
 
 from typing import List

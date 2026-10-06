@@ -1,7 +1,8 @@
 # 122. Best Time to Buy And Sell Stock II (Media)
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 #
-# Idea: como puedo comprar y vender cuantas veces quiera, me quedo con cada subida de un día al siguiente.
+# Idea: como puedo comprar y vender cuantas veces quiera, me quedo con cada subida de un día al
+#       siguiente.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

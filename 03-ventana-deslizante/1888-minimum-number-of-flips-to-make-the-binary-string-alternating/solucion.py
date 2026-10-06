@@ -1,7 +1,8 @@
 # 1888. Minimum Number of Flips to Make The Binary String Alternating (Media)
 # https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/
 #
-# Idea: la operación 1 (pasar la primera letra al final) equivale a mirar ventanas de largo n sobre s + s; en cada ventana cuento las diferencias contra "0101..." y "1010...".
+# Idea: la operación 1 (pasar la primera letra al final) equivale a mirar ventanas de largo n sobre
+#       s + s; en cada ventana cuento las diferencias contra "0101..." y "1010...".
 # Tiempo: O(n) · Espacio: O(n)
 
 class Solution:

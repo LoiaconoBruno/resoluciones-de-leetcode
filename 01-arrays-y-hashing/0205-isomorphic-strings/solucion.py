@@ -1,7 +1,8 @@
 # 205. Isomorphic Strings (Fácil)
 # https://leetcode.com/problems/isomorphic-strings/
 #
-# Idea: armo dos diccionarios (s -> t y t -> s); si alguna letra ya estaba asignada a otra distinta, no son isomorfos.
+# Idea: armo dos diccionarios (s -> t y t -> s); si alguna letra ya estaba asignada a otra distinta,
+#       no son isomorfos.
 # Tiempo: O(n) · Espacio: O(1) (el alfabeto es acotado)
 
 class Solution:

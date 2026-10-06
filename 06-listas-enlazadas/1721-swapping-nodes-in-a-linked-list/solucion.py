@@ -1,7 +1,9 @@
 # 1721. Swapping Nodes in a Linked List (Media)
 # https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
 #
-# Idea: llego al k-ésimo desde el principio; desde ahí arranco un segundo puntero en la cabeza y avanzo los dos hasta el final: el segundo queda en el k-ésimo desde el final. Intercambio los valores.
+# Idea: llego al k-ésimo desde el principio; desde ahí arranco un segundo puntero en la cabeza y
+#       avanzo los dos hasta el final: el segundo queda en el k-ésimo desde el final. Intercambio
+#       los valores.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

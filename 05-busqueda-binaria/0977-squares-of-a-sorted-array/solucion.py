@@ -1,7 +1,8 @@
 # 977. Squares of a Sorted Array (Fácil)
 # https://leetcode.com/problems/squares-of-a-sorted-array/
 #
-# Idea: los cuadrados más grandes están en las puntas (negativos grandes o positivos grandes); con dos punteros lleno la respuesta desde el final.
+# Idea: los cuadrados más grandes están en las puntas (negativos grandes o positivos grandes); con
+#       dos punteros lleno la respuesta desde el final.
 # Tiempo: O(n) · Espacio: O(n) (la respuesta)
 
 from typing import List

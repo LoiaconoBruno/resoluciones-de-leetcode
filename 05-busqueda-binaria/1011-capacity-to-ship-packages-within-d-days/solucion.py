@@ -1,7 +1,8 @@
 # 1011. Capacity to Ship Packages (Media)
 # https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 #
-# Idea: búsqueda binaria sobre la capacidad (entre el paquete más pesado y la suma total); para cada capacidad simulo cuántos días necesito cargando en orden.
+# Idea: búsqueda binaria sobre la capacidad (entre el paquete más pesado y la suma total); para cada
+#       capacidad simulo cuántos días necesito cargando en orden.
 # Tiempo: O(n log S), con S la suma de pesos · Espacio: O(1)
 
 from typing import List

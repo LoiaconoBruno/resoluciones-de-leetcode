@@ -1,7 +1,8 @@
 # 680. Valid Palindrome II (Fácil)
 # https://leetcode.com/problems/valid-palindrome-ii/
 #
-# Idea: dos punteros como en un palíndromo normal; en la primera diferencia pruebo borrar la letra de la izquierda o la de la derecha y chequeo si lo que queda es palíndromo.
+# Idea: dos punteros como en un palíndromo normal; en la primera diferencia pruebo borrar la letra
+#       de la izquierda o la de la derecha y chequeo si lo que queda es palíndromo.
 # Tiempo: O(n) · Espacio: O(1)
 
 class Solution:

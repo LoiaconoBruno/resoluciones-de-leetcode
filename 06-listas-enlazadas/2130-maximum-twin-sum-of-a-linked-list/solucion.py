@@ -1,7 +1,8 @@
 # 2130. Maximum Twin Sum Of A Linked List (Media)
 # https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 #
-# Idea: doy vuelta la segunda mitad; así el nodo i y su gemelo quedan a la misma altura en las dos mitades y los sumo de a pares.
+# Idea: doy vuelta la segunda mitad; así el nodo i y su gemelo quedan a la misma altura en las dos
+#       mitades y los sumo de a pares.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

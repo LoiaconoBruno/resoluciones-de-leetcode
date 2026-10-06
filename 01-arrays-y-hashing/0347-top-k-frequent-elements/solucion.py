@@ -1,7 +1,8 @@
 # 347. Top K Frequent Elements (Media)
 # https://leetcode.com/problems/top-k-frequent-elements/
 #
-# Idea: cuento frecuencias y las reparto en cubetas por frecuencia (bucket sort); después recorro las cubetas de la más alta a la más baja.
+# Idea: cuento frecuencias y las reparto en cubetas por frecuencia (bucket sort); después recorro
+#       las cubetas de la más alta a la más baja.
 # Tiempo: O(n) · Espacio: O(n)
 
 from collections import Counter

@@ -1,7 +1,8 @@
 # 704. Binary Search (Fácil)
 # https://leetcode.com/problems/binary-search/
 #
-# Idea: miro el del medio: si es el target, listo; si es más chico, el target solo puede estar a la derecha; si es más grande, a la izquierda.
+# Idea: miro el del medio: si es el target, listo; si es más chico, el target solo puede estar a la
+#       derecha; si es más grande, a la izquierda.
 # Tiempo: O(log n) · Espacio: O(1)
 
 from typing import List

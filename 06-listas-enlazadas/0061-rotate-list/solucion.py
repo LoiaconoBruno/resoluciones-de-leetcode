@@ -1,7 +1,8 @@
 # 61. Rotate List (Media)
 # https://leetcode.com/problems/rotate-list/
 #
-# Idea: cuento el largo y uno la cola con la cabeza (queda un anillo); después corto en el lugar justo: la nueva cola está a largo - k % largo - 1 pasos de la cabeza.
+# Idea: cuento el largo y uno la cola con la cabeza (queda un anillo); después corto en el lugar
+#       justo: la nueva cola está a largo - k % largo - 1 pasos de la cabeza.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

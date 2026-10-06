@@ -1,7 +1,8 @@
 # 238. Product of Array Except Self (Media)
 # https://leetcode.com/problems/product-of-array-except-self/
 #
-# Idea: el resultado en i es (producto de todo lo que está a la izquierda) × (producto de todo lo que está a la derecha); hago una pasada para cada lado.
+# Idea: el resultado en i es (producto de todo lo que está a la izquierda) × (producto de todo lo
+#       que está a la derecha); hago una pasada para cada lado.
 # Tiempo: O(n) · Espacio: O(1) extra (sin contar la respuesta)
 
 from typing import List

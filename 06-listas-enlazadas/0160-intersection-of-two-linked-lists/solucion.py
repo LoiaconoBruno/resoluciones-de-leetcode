@@ -1,7 +1,8 @@
 # 160. Intersection of Two Linked Lists (Fácil)
 # https://leetcode.com/problems/intersection-of-two-linked-lists/
 #
-# Idea: dos punteros que, al terminar su lista, saltan al principio de la otra; así los dos recorren a + b nodos y se encuentran en la intersección (o en None si no hay).
+# Idea: dos punteros que, al terminar su lista, saltan al principio de la otra; así los dos recorren
+#       a + b nodos y se encuentran en la intersección (o en None si no hay).
 # Tiempo: O(n + m) · Espacio: O(1)
 
 from typing import Optional

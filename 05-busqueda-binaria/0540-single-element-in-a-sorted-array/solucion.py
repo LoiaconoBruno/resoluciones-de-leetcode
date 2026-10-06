@@ -1,7 +1,8 @@
 # 540. Single Element in a Sorted Array (Media)
 # https://leetcode.com/problems/single-element-in-a-sorted-array/
 #
-# Idea: antes del número solo, cada par empieza en índice par; después, en índice impar. Miro un índice par en el medio: si es igual a su siguiente, el solo está más a la derecha.
+# Idea: antes del número solo, cada par empieza en índice par; después, en índice impar. Miro un
+#       índice par en el medio: si es igual a su siguiente, el solo está más a la derecha.
 # Tiempo: O(log n) · Espacio: O(1)
 
 from typing import List

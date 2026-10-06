@@ -1,7 +1,8 @@
 # 18. 4Sum (Media)
 # https://leetcode.com/problems/4sum/
 #
-# Idea: como 3Sum pero con un nivel más: ordeno, fijo los dos primeros con dos bucles y busco el par restante con dos punteros, salteando repetidos en cada nivel.
+# Idea: como 3Sum pero con un nivel más: ordeno, fijo los dos primeros con dos bucles y busco el par
+#       restante con dos punteros, salteando repetidos en cada nivel.
 # Tiempo: O(n³) · Espacio: O(1) extra
 
 from typing import List

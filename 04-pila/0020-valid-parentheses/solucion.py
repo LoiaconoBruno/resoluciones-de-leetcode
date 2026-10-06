@@ -1,7 +1,8 @@
 # 20. Valid Parentheses (Fácil)
 # https://leetcode.com/problems/valid-parentheses/
 #
-# Idea: apilo los que abren; cada uno que cierra tiene que coincidir con el que está arriba de la pila. Al final la pila tiene que quedar vacía.
+# Idea: apilo los que abren; cada uno que cierra tiene que coincidir con el que está arriba de la
+#       pila. Al final la pila tiene que quedar vacía.
 # Tiempo: O(n) · Espacio: O(n)
 
 class Solution:

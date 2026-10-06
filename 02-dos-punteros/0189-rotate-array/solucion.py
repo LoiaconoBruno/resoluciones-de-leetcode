@@ -1,7 +1,8 @@
 # 189. Rotate Array (Media)
 # https://leetcode.com/problems/rotate-array/
 #
-# Idea: rotar k a la derecha es dar vuelta todo el array y después dar vuelta por separado los primeros k y el resto.
+# Idea: rotar k a la derecha es dar vuelta todo el array y después dar vuelta por separado los
+#       primeros k y el resto.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

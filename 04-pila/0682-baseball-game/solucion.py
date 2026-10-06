@@ -1,7 +1,8 @@
 # 682. Baseball Game (Fácil)
 # https://leetcode.com/problems/baseball-game/
 #
-# Idea: simulo con una pila de puntajes: un número se apila, "C" saca el último, "D" apila el doble y "+" la suma de los dos de arriba.
+# Idea: simulo con una pila de puntajes: un número se apila, "C" saca el último, "D" apila el doble
+#       y "+" la suma de los dos de arriba.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

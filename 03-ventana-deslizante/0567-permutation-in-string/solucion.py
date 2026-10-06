@@ -1,7 +1,8 @@
 # 567. Permutation In String (Media)
 # https://leetcode.com/problems/permutation-in-string/
 #
-# Idea: una permutación de s1 es una ventana de s2 del mismo largo con la misma cuenta de letras; deslizo la ventana y comparo las cuentas.
+# Idea: una permutación de s1 es una ventana de s2 del mismo largo con la misma cuenta de letras;
+#       deslizo la ventana y comparo las cuentas.
 # Tiempo: O(n · 26) · Espacio: O(1)
 
 class Solution:

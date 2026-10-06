@@ -1,7 +1,8 @@
 # 658. Find K Closest Elements (Media)
 # https://leetcode.com/problems/find-k-closest-elements/
 #
-# Idea: la respuesta es una ventana de k elementos consecutivos; busco con búsqueda binaria dónde empieza comparando x contra los dos bordes de la ventana.
+# Idea: la respuesta es una ventana de k elementos consecutivos; busco con búsqueda binaria dónde
+#       empieza comparando x contra los dos bordes de la ventana.
 # Tiempo: O(log(n - k) + k) · Espacio: O(1) extra
 
 from typing import List

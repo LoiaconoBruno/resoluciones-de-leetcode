@@ -1,7 +1,8 @@
 # 1. Two Sum (Fácil)
 # https://leetcode.com/problems/two-sum/
 #
-# Idea: recorro una sola vez guardando número -> índice; para cada número me pregunto si ya vi el que le falta para llegar al target.
+# Idea: recorro una sola vez guardando número -> índice; para cada número me pregunto si ya vi el
+#       que le falta para llegar al target.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

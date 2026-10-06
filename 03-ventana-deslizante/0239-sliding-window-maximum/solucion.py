@@ -1,7 +1,8 @@
 # 239. Sliding Window Maximum (Difícil)
 # https://leetcode.com/problems/sliding-window-maximum/
 #
-# Idea: deque con índices cuyos valores van de mayor a menor; el frente siempre es el máximo de la ventana. Antes de meter un número saco del fondo los menores (ya no van a ser máximo nunca).
+# Idea: deque con índices cuyos valores van de mayor a menor; el frente siempre es el máximo de la
+#       ventana. Antes de meter un número saco del fondo los menores (ya no van a ser máximo nunca).
 # Tiempo: O(n) · Espacio: O(k)
 
 from collections import deque

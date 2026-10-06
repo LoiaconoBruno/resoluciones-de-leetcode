@@ -1,7 +1,8 @@
 # 2300. Successful Pairs of Spells and Potions (Media)
 # https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
 #
-# Idea: ordeno las pociones; para un hechizo s necesito pociones ≥ ceil(success / s), y con búsqueda binaria encuentro la primera que cumple: todas las de la derecha también sirven.
+# Idea: ordeno las pociones; para un hechizo s necesito pociones ≥ ceil(success / s), y con búsqueda
+#       binaria encuentro la primera que cumple: todas las de la derecha también sirven.
 # Tiempo: O((n + m) log m) · Espacio: O(1) extra
 
 from bisect import bisect_left

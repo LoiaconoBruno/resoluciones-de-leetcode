@@ -1,7 +1,8 @@
 # 162. Find Peak Element (Media)
 # https://leetcode.com/problems/find-peak-element/
 #
-# Idea: si nums[medio] < nums[medio + 1] estoy subiendo, así que hay un pico a la derecha; si no, hay uno a la izquierda (o es el medio).
+# Idea: si nums[medio] < nums[medio + 1] estoy subiendo, así que hay un pico a la derecha; si no,
+#       hay uno a la izquierda (o es el medio).
 # Tiempo: O(log n) · Espacio: O(1)
 
 from typing import List

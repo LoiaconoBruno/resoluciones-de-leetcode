@@ -1,7 +1,9 @@
 # 981. Time Based Key Value Store (Media)
 # https://leetcode.com/problems/time-based-key-value-store/
 #
-# Idea: por cada clave guardo la lista de (timestamp, valor); como los set llegan con timestamps crecientes, la lista ya está ordenada y en get hago búsqueda binaria del último timestamp ≤ al pedido.
+# Idea: por cada clave guardo la lista de (timestamp, valor); como los set llegan con timestamps
+#       crecientes, la lista ya está ordenada y en get hago búsqueda binaria del último timestamp ≤
+#       al pedido.
 # Tiempo: O(1) set, O(log n) get · Espacio: O(n)
 
 from collections import defaultdict

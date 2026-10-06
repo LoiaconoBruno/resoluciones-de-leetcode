@@ -1,7 +1,8 @@
 # 121. Best Time to Buy And Sell Stock (Fácil)
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 #
-# Idea: recorro los días llevando el precio más barato visto hasta ahora; vender hoy deja precio - mínimo, y me quedo con el mejor.
+# Idea: recorro los días llevando el precio más barato visto hasta ahora; vender hoy deja precio -
+#       mínimo, y me quedo con el mejor.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

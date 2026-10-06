@@ -1,7 +1,8 @@
 # 904. Fruits into Basket (Media)
 # https://leetcode.com/problems/fruit-into-baskets/
 #
-# Idea: es la ventana más larga con a lo sumo 2 tipos de fruta distintos; cuento frutas en la ventana y achico cuando hay 3 tipos.
+# Idea: es la ventana más larga con a lo sumo 2 tipos de fruta distintos; cuento frutas en la
+#       ventana y achico cuando hay 3 tipos.
 # Tiempo: O(n) · Espacio: O(1)
 
 from collections import defaultdict

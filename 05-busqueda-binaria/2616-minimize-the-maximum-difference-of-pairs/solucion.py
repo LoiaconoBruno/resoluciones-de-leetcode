@@ -1,7 +1,8 @@
 # 2616. Minimize the Maximum Difference of Pairs (Media)
 # https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/
 #
-# Idea: búsqueda binaria sobre la diferencia máxima permitida; para chequear una, ordeno y armo pares de vecinos en forma greedy (si dos vecinos entran, los emparejo).
+# Idea: búsqueda binaria sobre la diferencia máxima permitida; para chequear una, ordeno y armo
+#       pares de vecinos en forma greedy (si dos vecinos entran, los emparejo).
 # Tiempo: O(n log n + n log M) · Espacio: O(1) extra
 
 from typing import List

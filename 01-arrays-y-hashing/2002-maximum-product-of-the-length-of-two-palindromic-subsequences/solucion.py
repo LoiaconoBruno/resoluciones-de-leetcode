@@ -1,7 +1,9 @@
 # 2002. Maximum Product of The Length of Two Palindromic Subsequences (Media)
 # https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/
 #
-# Idea: con n ≤ 12 pruebo todas las máscaras: largo[m] es el largo si m es palíndromo; mejor[m] es el palíndromo más largo dentro de m. Para cada palíndromo m, lo combino con mejor[complemento].
+# Idea: con n ≤ 12 pruebo todas las máscaras: largo[m] es el largo si m es palíndromo; mejor[m] es
+#       el palíndromo más largo dentro de m. Para cada palíndromo m, lo combino con
+#       mejor[complemento].
 # Tiempo: O(2^n · n) · Espacio: O(2^n)
 
 class Solution:

@@ -1,7 +1,9 @@
 # 456. 132 Pattern (Media)
 # https://leetcode.com/problems/132-pattern/
 #
-# Idea: recorro de derecha a izquierda con una pila decreciente; lo que saco de la pila es un candidato a "2" (tiene a su izquierda un "3" más grande). Si aparece un número menor que ese candidato, es el "1".
+# Idea: recorro de derecha a izquierda con una pila decreciente; lo que saco de la pila es un
+#       candidato a "2" (tiene a su izquierda un "3" más grande). Si aparece un número menor que ese
+#       candidato, es el "1".
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

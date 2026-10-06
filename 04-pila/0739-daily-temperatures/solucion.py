@@ -1,7 +1,8 @@
 # 739. Daily Temperatures (Media)
 # https://leetcode.com/problems/daily-temperatures/
 #
-# Idea: pila de índices de días que todavía esperan un día más cálido (temperaturas decrecientes); cuando llega uno más caliente, resuelve a todos los más fríos de arriba.
+# Idea: pila de índices de días que todavía esperan un día más cálido (temperaturas decrecientes);
+#       cuando llega uno más caliente, resuelve a todos los más fríos de arriba.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

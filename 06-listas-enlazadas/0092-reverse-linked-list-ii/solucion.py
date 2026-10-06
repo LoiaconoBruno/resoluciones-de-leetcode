@@ -1,7 +1,8 @@
 # 92. Reverse Linked List II (Media)
 # https://leetcode.com/problems/reverse-linked-list-ii/
 #
-# Idea: me paro en el nodo anterior a left y, right - left veces, tomo el nodo que sigue al tramo y lo muevo al principio del tramo; así lo doy vuelta en una pasada.
+# Idea: me paro en el nodo anterior a left y, right - left veces, tomo el nodo que sigue al tramo y
+#       lo muevo al principio del tramo; así lo doy vuelta en una pasada.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

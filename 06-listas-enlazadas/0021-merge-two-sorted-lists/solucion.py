@@ -1,7 +1,8 @@
 # 21. Merge Two Sorted Lists (Fácil)
 # https://leetcode.com/problems/merge-two-sorted-lists/
 #
-# Idea: un nodo ficticio al principio y un puntero "cola"; engancho siempre el menor de los dos frentes y al final pego lo que sobre.
+# Idea: un nodo ficticio al principio y un puntero "cola"; engancho siempre el menor de los dos
+#       frentes y al final pego lo que sobre.
 # Tiempo: O(n + m) · Espacio: O(1)
 
 from typing import Optional

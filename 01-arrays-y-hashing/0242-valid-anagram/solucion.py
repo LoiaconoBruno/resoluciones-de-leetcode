@@ -1,7 +1,8 @@
 # 242. Valid Anagram (Fácil)
 # https://leetcode.com/problems/valid-anagram/
 #
-# Idea: cuento las letras de s y las voy descontando con las de t; si alguna queda en negativo, no es anagrama.
+# Idea: cuento las letras de s y las voy descontando con las de t; si alguna queda en negativo, no
+#       es anagrama.
 # Tiempo: O(n) · Espacio: O(1) (a lo sumo 26 letras)
 
 class Solution:

@@ -1,7 +1,8 @@
 # 209. Minimum Size Subarray Sum (Media)
 # https://leetcode.com/problems/minimum-size-subarray-sum/
 #
-# Idea: agrando la ventana sumando; mientras la suma llegue a target, guardo el largo y achico desde la izquierda.
+# Idea: agrando la ventana sumando; mientras la suma llegue a target, guardo el largo y achico desde
+#       la izquierda.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

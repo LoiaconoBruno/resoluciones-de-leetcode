@@ -1,7 +1,8 @@
 # 1461. Check if a String Contains all Binary Codes of Size K (Media)
 # https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/
 #
-# Idea: guardo en un set todas las ventanas de largo k; hay 2^k códigos posibles, así que alcanza con comparar la cantidad.
+# Idea: guardo en un set todas las ventanas de largo k; hay 2^k códigos posibles, así que alcanza
+#       con comparar la cantidad.
 # Tiempo: O(n · k) · Espacio: O(n · k)
 
 class Solution:

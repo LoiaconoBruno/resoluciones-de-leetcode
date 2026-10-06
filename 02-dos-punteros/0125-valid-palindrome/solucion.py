@@ -1,7 +1,8 @@
 # 125. Valid Palindrome (Fácil)
 # https://leetcode.com/problems/valid-palindrome/
 #
-# Idea: un puntero en cada punta; salteo lo que no sea letra o número y comparo en minúscula mientras se acercan.
+# Idea: un puntero en cada punta; salteo lo que no sea letra o número y comparo en minúscula
+#       mientras se acercan.
 # Tiempo: O(n) · Espacio: O(1)
 
 class Solution:

@@ -1,7 +1,8 @@
 # 83. Remove Duplicates From Sorted List (Fácil)
 # https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 #
-# Idea: como está ordenada, los repetidos están pegados: si el siguiente tiene el mismo valor, lo salteo.
+# Idea: como está ordenada, los repetidos están pegados: si el siguiente tiene el mismo valor, lo
+#       salteo.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

@@ -1,7 +1,8 @@
 # 1963. Minimum Number of Swaps to Make The String Balanced (Media)
 # https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/
 #
-# Idea: tacho los pares [] que ya cierran bien; quedan m corchetes ']' sin pareja y cada intercambio arregla dos, así que la respuesta es (m + 1) // 2.
+# Idea: tacho los pares [] que ya cierran bien; quedan m corchetes ']' sin pareja y cada intercambio
+#       arregla dos, así que la respuesta es (m + 1) // 2.
 # Tiempo: O(n) · Espacio: O(1)
 
 class Solution:

@@ -1,7 +1,8 @@
 # 24. Swap Nodes In Pairs (Media)
 # https://leetcode.com/problems/swap-nodes-in-pairs/
 #
-# Idea: con un nodo ficticio, tomo de a dos nodos (a, b) y los reengancho como anterior -> b -> a -> resto; después avanzo dos.
+# Idea: con un nodo ficticio, tomo de a dos nodos (a, b) y los reengancho como anterior -> b -> a ->
+#       resto; después avanzo dos.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

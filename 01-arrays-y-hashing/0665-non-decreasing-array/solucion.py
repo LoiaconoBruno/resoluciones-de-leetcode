@@ -1,7 +1,8 @@
 # 665. Non Decreasing Array (Media)
 # https://leetcode.com/problems/non-decreasing-array/
 #
-# Idea: al encontrar una bajada nums[i] < nums[i-1] la arreglo de la forma que menos molesta: bajo nums[i-1] si puedo y, si no, subo nums[i]. Si hay dos bajadas, no se puede.
+# Idea: al encontrar una bajada nums[i] < nums[i-1] la arreglo de la forma que menos molesta: bajo
+#       nums[i-1] si puedo y, si no, subo nums[i]. Si hay dos bajadas, no se puede.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

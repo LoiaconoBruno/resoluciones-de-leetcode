@@ -1,7 +1,9 @@
 # 116. Populating Next Right Pointers In Each Node (Media)
 # https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 #
-# Idea: como el árbol es perfecto, uso los next del nivel actual para recorrerlo como una lista y conectar el nivel de abajo: el hijo izquierdo apunta al derecho, y el derecho al izquierdo del vecino.
+# Idea: como el árbol es perfecto, uso los next del nivel actual para recorrerlo como una lista y
+#       conectar el nivel de abajo: el hijo izquierdo apunta al derecho, y el derecho al izquierdo
+#       del vecino.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

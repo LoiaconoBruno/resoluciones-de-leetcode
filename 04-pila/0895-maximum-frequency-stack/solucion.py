@@ -1,7 +1,8 @@
 # 895. Maximum Frequency Stack (Difícil)
 # https://leetcode.com/problems/maximum-frequency-stack/
 #
-# Idea: guardo la frecuencia de cada valor y una pila por frecuencia; un valor con frecuencia f se apila en la pila f. El pop sale de la pila de frecuencia máxima.
+# Idea: guardo la frecuencia de cada valor y una pila por frecuencia; un valor con frecuencia f se
+#       apila en la pila f. El pop sale de la pila de frecuencia máxima.
 # Tiempo: O(1) por operación · Espacio: O(n)
 
 from collections import defaultdict

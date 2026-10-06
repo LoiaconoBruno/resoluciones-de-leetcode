@@ -1,7 +1,8 @@
 # 169. Majority Element (Fácil)
 # https://leetcode.com/problems/majority-element/
 #
-# Idea: votación de Boyer-Moore: el candidato suma con los iguales y resta con los distintos; como el mayoritario es más de la mitad, siempre sobrevive.
+# Idea: votación de Boyer-Moore: el candidato suma con los iguales y resta con los distintos; como
+#       el mayoritario es más de la mitad, siempre sobrevive.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

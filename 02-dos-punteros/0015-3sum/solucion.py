@@ -1,7 +1,8 @@
 # 15. 3Sum (Media)
 # https://leetcode.com/problems/3sum/
 #
-# Idea: ordeno, fijo el primer número y busco los otros dos con dos punteros (como Two Sum II); salteo los repetidos para no duplicar tripletas.
+# Idea: ordeno, fijo el primer número y busco los otros dos con dos punteros (como Two Sum II);
+#       salteo los repetidos para no duplicar tripletas.
 # Tiempo: O(n²) · Espacio: O(1) extra (sin contar el ordenamiento)
 
 from typing import List

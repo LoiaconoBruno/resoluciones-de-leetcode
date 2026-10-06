@@ -1,7 +1,8 @@
 # 36. Valid Sudoku (Media)
 # https://leetcode.com/problems/valid-sudoku/
 #
-# Idea: uso un set por fila, otro por columna y otro por caja de 3x3 (la caja es (fila // 3, columna // 3)); si un número se repite en alguno, no es válido.
+# Idea: uso un set por fila, otro por columna y otro por caja de 3x3 (la caja es (fila // 3, columna
+#       // 3)); si un número se repite en alguno, no es válido.
 # Tiempo: O(1) (el tablero siempre es 9x9) · Espacio: O(1)
 
 from collections import defaultdict

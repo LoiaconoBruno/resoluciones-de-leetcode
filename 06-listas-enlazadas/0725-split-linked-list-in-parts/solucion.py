@@ -1,7 +1,8 @@
 # 725. Split Linked List in Parts (Media)
 # https://leetcode.com/problems/split-linked-list-in-parts/
 #
-# Idea: con el largo n, cada parte tiene n // k nodos y las primeras n % k tienen uno extra; recorro cortando la lista en esos tamaños.
+# Idea: con el largo n, cada parte tiene n // k nodos y las primeras n % k tienen uno extra; recorro
+#       cortando la lista en esos tamaños.
 # Tiempo: O(n + k) · Espacio: O(k) (la respuesta)
 
 from typing import List, Optional

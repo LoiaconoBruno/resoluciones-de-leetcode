@@ -1,7 +1,8 @@
 # 707. Design Linked List (Media)
 # https://leetcode.com/problems/design-linked-list/
 #
-# Idea: lista simple con un nodo ficticio al principio y un contador de tamaño; toda operación camina hasta el nodo anterior a la posición pedida.
+# Idea: lista simple con un nodo ficticio al principio y un contador de tamaño; toda operación
+#       camina hasta el nodo anterior a la posición pedida.
 # Tiempo: O(n) por operación (O(1) addAtHead) · Espacio: O(n)
 
 class Nodo:

@@ -1,7 +1,8 @@
 # 42. Trapping Rain Water (Difícil)
 # https://leetcode.com/problems/trapping-rain-water/
 #
-# Idea: el agua sobre una barra es min(máximo a la izquierda, máximo a la derecha) - altura; con dos punteros avanzo siempre por el lado de máximo más bajo, porque ese es el que limita.
+# Idea: el agua sobre una barra es min(máximo a la izquierda, máximo a la derecha) - altura; con dos
+#       punteros avanzo siempre por el lado de máximo más bajo, porque ese es el que limita.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

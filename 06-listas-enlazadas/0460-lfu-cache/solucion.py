@@ -1,7 +1,9 @@
 # 460. LFU Cache (Difícil)
 # https://leetcode.com/problems/lfu-cache/
 #
-# Idea: por cada clave guardo valor y frecuencia, y por cada frecuencia una lista ordenada por uso (OrderedDict, que por dentro es una lista doblemente enlazada). Se desaloja el más viejo de la frecuencia mínima.
+# Idea: por cada clave guardo valor y frecuencia, y por cada frecuencia una lista ordenada por uso
+#       (OrderedDict, que por dentro es una lista doblemente enlazada). Se desaloja el más viejo de
+#       la frecuencia mínima.
 # Tiempo: O(1) por operación · Espacio: O(capacidad)
 
 from collections import OrderedDict, defaultdict

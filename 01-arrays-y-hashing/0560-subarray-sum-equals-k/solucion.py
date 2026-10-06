@@ -1,7 +1,8 @@
 # 560. Subarray Sum Equals K (Media)
 # https://leetcode.com/problems/subarray-sum-equals-k/
 #
-# Idea: si la suma prefija hasta acá es p, cada prefijo anterior que valga p - k cierra un subarray que suma k; cuento los prefijos en un diccionario.
+# Idea: si la suma prefija hasta acá es p, cada prefijo anterior que valga p - k cierra un subarray
+#       que suma k; cuento los prefijos en un diccionario.
 # Tiempo: O(n) · Espacio: O(n)
 
 from collections import defaultdict

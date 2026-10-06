@@ -1,7 +1,8 @@
 # 167. Two Sum II Input Array Is Sorted (Media)
 # https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 #
-# Idea: como el array está ordenado, si la suma de las puntas se pasa muevo la derecha y si no llega muevo la izquierda.
+# Idea: como el array está ordenado, si la suma de las puntas se pasa muevo la derecha y si no llega
+#       muevo la izquierda.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

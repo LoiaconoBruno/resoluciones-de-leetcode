@@ -1,7 +1,8 @@
 # 2348. Number of Zero-Filled Subarrays (Media)
 # https://leetcode.com/problems/number-of-zero-filled-subarrays/
 #
-# Idea: una racha de largo L de ceros aporta 1 + 2 + ... + L subarrays; sumo el largo de la racha actual en cada cero.
+# Idea: una racha de largo L de ceros aporta 1 + 2 + ... + L subarrays; sumo el largo de la racha
+#       actual en cada cero.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

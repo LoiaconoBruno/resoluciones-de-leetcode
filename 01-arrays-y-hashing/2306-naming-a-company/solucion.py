@@ -1,7 +1,8 @@
 # 2306. Naming a Company (Difícil)
 # https://leetcode.com/problems/naming-a-company/
 #
-# Idea: agrupo los sufijos por primera letra; para dos letras a y b, solo sirven los sufijos que no están en ambos grupos, y cada par válido cuenta dos veces (orden).
+# Idea: agrupo los sufijos por primera letra; para dos letras a y b, solo sirven los sufijos que no
+#       están en ambos grupos, y cada par válido cuenta dos veces (orden).
 # Tiempo: O(26² · n) · Espacio: O(n)
 
 from typing import List

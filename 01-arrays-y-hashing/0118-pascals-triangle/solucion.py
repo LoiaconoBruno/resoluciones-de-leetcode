@@ -1,7 +1,8 @@
 # 118. Pascals Triangle (Fácil)
 # https://leetcode.com/problems/pascals-triangle/
 #
-# Idea: cada fila empieza y termina en 1, y cada número del medio es la suma de los dos que tiene arriba.
+# Idea: cada fila empieza y termina en 1, y cada número del medio es la suma de los dos que tiene
+#       arriba.
 # Tiempo: O(n²) · Espacio: O(n²) (la respuesta)
 
 from typing import List

@@ -1,7 +1,8 @@
 # 33. Search In Rotated Sorted Array (Media)
 # https://leetcode.com/problems/search-in-rotated-sorted-array/
 #
-# Idea: en un array rotado, al menos una de las dos mitades (izq..medio o medio..der) está ordenada; me fijo si el target cae en esa mitad ordenada y descarto la otra.
+# Idea: en un array rotado, al menos una de las dos mitades (izq..medio o medio..der) está ordenada;
+#       me fijo si el target cae en esa mitad ordenada y descarto la otra.
 # Tiempo: O(log n) · Espacio: O(1)
 
 from typing import List

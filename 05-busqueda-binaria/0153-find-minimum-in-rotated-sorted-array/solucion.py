@@ -1,7 +1,8 @@
 # 153. Find Minimum In Rotated Sorted Array (Media)
 # https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 #
-# Idea: comparo el medio con el último: si es mayor, el mínimo está a la derecha del medio; si no, el medio puede ser el mínimo y sigo por la izquierda (incluyéndolo).
+# Idea: comparo el medio con el último: si es mayor, el mínimo está a la derecha del medio; si no,
+#       el medio puede ser el mínimo y sigo por la izquierda (incluyéndolo).
 # Tiempo: O(log n) · Espacio: O(1)
 
 from typing import List

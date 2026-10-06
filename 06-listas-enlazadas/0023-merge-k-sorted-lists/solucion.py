@@ -1,7 +1,8 @@
 # 23. Merge K Sorted Lists (Difícil)
 # https://leetcode.com/problems/merge-k-sorted-lists/
 #
-# Idea: divide y vencerás: mezclo las listas de a pares (como en Merge Two Sorted Lists) y repito con el resultado hasta que queda una sola.
+# Idea: divide y vencerás: mezclo las listas de a pares (como en Merge Two Sorted Lists) y repito
+#       con el resultado hasta que queda una sola.
 # Tiempo: O(N log k), con N el total de nodos · Espacio: O(1) extra (sin contar la lista de listas)
 
 from typing import List, Optional

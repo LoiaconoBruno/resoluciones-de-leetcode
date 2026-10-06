@@ -1,7 +1,8 @@
 # 11. Container With Most Water (Media)
 # https://leetcode.com/problems/container-with-most-water/
 #
-# Idea: arranco con el recipiente más ancho y siempre muevo la pared más baja: es la que limita el agua, moverla es la única chance de mejorar.
+# Idea: arranco con el recipiente más ancho y siempre muevo la pared más baja: es la que limita el
+#       agua, moverla es la única chance de mejorar.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

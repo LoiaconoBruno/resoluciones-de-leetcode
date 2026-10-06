@@ -1,7 +1,8 @@
 # 76. Minimum Window Substring (Difícil)
 # https://leetcode.com/problems/minimum-window-substring/
 #
-# Idea: agrando la ventana hasta cubrir todas las letras de t y, mientras siga cubriendo, la achico desde la izquierda guardando la más corta. "faltan" cuenta cuántas letras me faltan todavía.
+# Idea: agrando la ventana hasta cubrir todas las letras de t y, mientras siga cubriendo, la achico
+#       desde la izquierda guardando la más corta. "faltan" cuenta cuántas letras me faltan todavía.
 # Tiempo: O(n + m) · Espacio: O(alfabeto)
 
 from collections import Counter

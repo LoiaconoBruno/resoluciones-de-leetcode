@@ -1,7 +1,8 @@
 # 150. Evaluate Reverse Polish Notation (Media)
 # https://leetcode.com/problems/evaluate-reverse-polish-notation/
 #
-# Idea: los números van a la pila; cada operador saca los dos de arriba, opera (ojo con el orden: primero sale el segundo operando) y apila el resultado.
+# Idea: los números van a la pila; cada operador saca los dos de arriba, opera (ojo con el orden:
+#       primero sale el segundo operando) y apila el resultado.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

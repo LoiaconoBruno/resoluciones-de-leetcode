@@ -1,7 +1,8 @@
 # 1299. Replace Elements With Greatest Element On Right Side (Fácil)
 # https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/
 #
-# Idea: recorro de derecha a izquierda llevando el máximo visto; cada posición se queda con el máximo de lo que tenía a su derecha.
+# Idea: recorro de derecha a izquierda llevando el máximo visto; cada posición se queda con el
+#       máximo de lo que tenía a su derecha.
 # Tiempo: O(n) · Espacio: O(1) extra
 
 from typing import List

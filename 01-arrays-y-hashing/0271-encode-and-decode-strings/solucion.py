@@ -1,7 +1,8 @@
 # 271. Encode and Decode Strings (Media)
 # https://www.lintcode.com/problem/659/
 #
-# Idea: antes de cada palabra escribo su largo y un '#'; al decodificar leo el número hasta el '#' y sé exactamente cuántos caracteres tomar, aunque la palabra tenga '#'.
+# Idea: antes de cada palabra escribo su largo y un '#'; al decodificar leo el número hasta el '#' y
+#       sé exactamente cuántos caracteres tomar, aunque la palabra tenga '#'.
 # Tiempo: O(n), con n el total de caracteres · Espacio: O(n)
 
 from typing import List

@@ -1,7 +1,8 @@
 # 1838. Frequency of The Most Frequent Element (Media)
 # https://leetcode.com/problems/frequency-of-the-most-frequent-element/
 #
-# Idea: ordeno; en una ventana llevo todos al valor del máximo nums[der], y eso cuesta nums[der] · largo - suma. Si el costo pasa k, achico desde la izquierda.
+# Idea: ordeno; en una ventana llevo todos al valor del máximo nums[der], y eso cuesta nums[der] ·
+#       largo - suma. Si el costo pasa k, achico desde la izquierda.
 # Tiempo: O(n log n) · Espacio: O(1) extra
 
 from typing import List

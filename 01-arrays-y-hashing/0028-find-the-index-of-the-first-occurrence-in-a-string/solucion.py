@@ -1,7 +1,8 @@
 # 28. Find The Index of The First Occurrence in a String (Fácil)
 # https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 #
-# Idea: pruebo cada posición de inicio y comparo la ventana del largo de needle; la primera que coincide es la respuesta.
+# Idea: pruebo cada posición de inicio y comparo la ventana del largo de needle; la primera que
+#       coincide es la respuesta.
 # Tiempo: O(n · m) · Espacio: O(1)
 
 class Solution:

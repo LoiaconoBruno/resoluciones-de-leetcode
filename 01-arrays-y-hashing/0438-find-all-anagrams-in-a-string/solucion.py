@@ -1,7 +1,8 @@
 # 438. Find All Anagrams in a String (Media)
 # https://leetcode.com/problems/find-all-anagrams-in-a-string/
 #
-# Idea: ventana de largo fijo len(p) que se desliza sobre s; mantengo la cuenta de letras de la ventana y la comparo con la de p.
+# Idea: ventana de largo fijo len(p) que se desliza sobre s; mantengo la cuenta de letras de la
+#       ventana y la comparo con la de p.
 # Tiempo: O(n · 26) · Espacio: O(1)
 
 from typing import List

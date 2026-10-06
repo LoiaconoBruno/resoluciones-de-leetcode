@@ -1,7 +1,8 @@
 # 410. Split Array Largest Sum (Difícil)
 # https://leetcode.com/problems/split-array-largest-sum/
 #
-# Idea: búsqueda binaria sobre la suma máxima permitida; para una suma dada corto en forma greedy y cuento cuántas partes necesito.
+# Idea: búsqueda binaria sobre la suma máxima permitida; para una suma dada corto en forma greedy y
+#       cuento cuántas partes necesito.
 # Tiempo: O(n log S), con S la suma total · Espacio: O(1)
 
 from typing import List

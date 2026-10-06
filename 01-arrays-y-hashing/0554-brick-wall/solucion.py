@@ -1,7 +1,8 @@
 # 554. Brick Wall (Media)
 # https://leetcode.com/problems/brick-wall/
 #
-# Idea: la línea que menos ladrillos corta es la que pasa por más bordes; cuento en qué posiciones caen los bordes de cada fila (sin el borde final).
+# Idea: la línea que menos ladrillos corta es la que pasa por más bordes; cuento en qué posiciones
+#       caen los bordes de cada fila (sin el borde final).
 # Tiempo: O(total de ladrillos) · Espacio: O(ancho)
 
 from collections import defaultdict

@@ -1,7 +1,9 @@
 # 287. Find The Duplicate Number (Media)
 # https://leetcode.com/problems/find-the-duplicate-number/
 #
-# Idea: veo el array como una lista enlazada (i -> nums[i]); el número repetido es la entrada de un ciclo, y lo encuentro con Floyd: primero el encuentro y después avanzo desde el inicio a la par.
+# Idea: veo el array como una lista enlazada (i -> nums[i]); el número repetido es la entrada de un
+#       ciclo, y lo encuentro con Floyd: primero el encuentro y después avanzo desde el inicio a la
+#       par.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

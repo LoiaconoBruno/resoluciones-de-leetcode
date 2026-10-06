@@ -1,7 +1,8 @@
 # 380. Insert Delete Get Random O(1) (Media)
 # https://leetcode.com/problems/insert-delete-getrandom-o1/
 #
-# Idea: una lista para elegir al azar en O(1) y un diccionario valor -> índice; para borrar, piso el elemento con el último y hago pop.
+# Idea: una lista para elegir al azar en O(1) y un diccionario valor -> índice; para borrar, piso el
+#       elemento con el último y hago pop.
 # Tiempo: O(1) promedio por operación · Espacio: O(n)
 
 import random

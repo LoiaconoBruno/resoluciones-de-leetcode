@@ -1,7 +1,8 @@
 # 448. Find All Numbers Disappeared in An Array (Fácil)
 # https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 #
-# Idea: uso el propio array como marca: por cada número n pongo en negativo la posición n - 1; las posiciones que quedan positivas son los que faltan.
+# Idea: uso el propio array como marca: por cada número n pongo en negativo la posición n - 1; las
+#       posiciones que quedan positivas son los que faltan.
 # Tiempo: O(n) · Espacio: O(1) extra
 
 from typing import List

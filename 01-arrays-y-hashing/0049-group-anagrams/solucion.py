@@ -1,7 +1,8 @@
 # 49. Group Anagrams (Media)
 # https://leetcode.com/problems/group-anagrams/
 #
-# Idea: dos anagramas tienen la misma cuenta de letras; uso esa cuenta (26 números) como clave de un diccionario.
+# Idea: dos anagramas tienen la misma cuenta de letras; uso esa cuenta (26 números) como clave de un
+#       diccionario.
 # Tiempo: O(n · k), con k el largo de la palabra más larga · Espacio: O(n · k)
 
 from collections import defaultdict

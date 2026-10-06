@@ -1,7 +1,8 @@
 # 303. Range Sum Query - Immutable (Fácil)
 # https://leetcode.com/problems/range-sum-query-immutable/
 #
-# Idea: precalculo sumas prefijas (prefijo[i] = suma de los primeros i números); la suma de un rango es una resta.
+# Idea: precalculo sumas prefijas (prefijo[i] = suma de los primeros i números); la suma de un rango
+#       es una resta.
 # Tiempo: O(n) para construir, O(1) por consulta · Espacio: O(n)
 
 from typing import List

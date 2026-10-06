@@ -1,7 +1,8 @@
 # 290. Word Pattern (Fácil)
 # https://leetcode.com/problems/word-pattern/
 #
-# Idea: es el mismo problema que strings isomorfos, pero letra contra palabra: dos diccionarios para que la relación sea uno a uno.
+# Idea: es el mismo problema que strings isomorfos, pero letra contra palabra: dos diccionarios para
+#       que la relación sea uno a uno.
 # Tiempo: O(n) · Espacio: O(n)
 
 class Solution:

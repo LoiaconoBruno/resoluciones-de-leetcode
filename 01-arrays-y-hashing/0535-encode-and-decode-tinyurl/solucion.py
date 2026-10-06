@@ -1,7 +1,8 @@
 # 535. Encode and Decode TinyURL (Media)
 # https://leetcode.com/problems/encode-and-decode-tinyurl/
 #
-# Idea: a cada URL larga le doy un número correlativo como código corto y guardo las dos direcciones en diccionarios.
+# Idea: a cada URL larga le doy un número correlativo como código corto y guardo las dos direcciones
+#       en diccionarios.
 # Tiempo: O(1) por operación (sin contar el largo de la URL) · Espacio: O(n)
 
 class Codec:

@@ -1,7 +1,9 @@
 # 853. Car Fleet (Media)
 # https://leetcode.com/problems/car-fleet/
 #
-# Idea: ordeno los autos del más cercano a la meta al más lejano y calculo cuánto tarda cada uno; si uno tarda menos o igual que la flota de adelante, la alcanza y se une. Si tarda más, arma una flota nueva.
+# Idea: ordeno los autos del más cercano a la meta al más lejano y calculo cuánto tarda cada uno; si
+#       uno tarda menos o igual que la flota de adelante, la alcanza y se une. Si tarda más, arma
+#       una flota nueva.
 # Tiempo: O(n log n) · Espacio: O(n)
 
 from typing import List

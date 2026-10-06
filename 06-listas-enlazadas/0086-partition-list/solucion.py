@@ -1,7 +1,8 @@
 # 86. Partition List (Media)
 # https://leetcode.com/problems/partition-list/
 #
-# Idea: armo dos listas aparte, una con los menores a x y otra con el resto (respetando el orden), y al final engancho la segunda detrás de la primera.
+# Idea: armo dos listas aparte, una con los menores a x y otra con el resto (respetando el orden), y
+#       al final engancho la segunda detrás de la primera.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

@@ -1,7 +1,8 @@
 # 22. Generate Parentheses (Media)
 # https://leetcode.com/problems/generate-parentheses/
 #
-# Idea: backtracking: puedo abrir mientras me queden aperturas y cerrar solo si hay más abiertos que cerrados; así cada string que llega a 2n es válido.
+# Idea: backtracking: puedo abrir mientras me queden aperturas y cerrar solo si hay más abiertos que
+#       cerrados; así cada string que llega a 2n es válido.
 # Tiempo: O(4^n / √n) (el número de Catalan) · Espacio: O(n) de recursión
 
 from typing import List

@@ -1,7 +1,8 @@
 # 155. Min Stack (Media)
 # https://leetcode.com/problems/min-stack/
 #
-# Idea: junto a cada valor apilo el mínimo de la pila en ese momento; así el mínimo actual siempre está arriba, incluso después de un pop.
+# Idea: junto a cada valor apilo el mínimo de la pila en ese momento; así el mínimo actual siempre
+#       está arriba, incluso después de un pop.
 # Tiempo: O(1) por operación · Espacio: O(n)
 
 class MinStack:

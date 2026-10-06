@@ -1,7 +1,8 @@
 # 496. Next Greater Element I (Fácil)
 # https://leetcode.com/problems/next-greater-element-i/
 #
-# Idea: recorro nums2 con una pila decreciente; cuando llega un número más grande, es el siguiente mayor de todos los que saca de la pila. Guardo eso en un diccionario.
+# Idea: recorro nums2 con una pila decreciente; cuando llega un número más grande, es el siguiente
+#       mayor de todos los que saca de la pila. Guardo eso en un diccionario.
 # Tiempo: O(n + m) · Espacio: O(m)
 
 from typing import List

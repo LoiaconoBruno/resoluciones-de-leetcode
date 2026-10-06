@@ -1,7 +1,8 @@
 # 876. Middle of the Linked List (Fácil)
 # https://leetcode.com/problems/middle-of-the-linked-list/
 #
-# Idea: lenta de a 1 y rápida de a 2: cuando la rápida llega al final, la lenta está en el medio (el segundo medio si son pares).
+# Idea: lenta de a 1 y rápida de a 2: cuando la rápida llega al final, la lenta está en el medio (el
+#       segundo medio si son pares).
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

@@ -1,7 +1,8 @@
 # 1658. Minimum Operations to Reduce X to Zero (Media)
 # https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 #
-# Idea: sacar de las puntas hasta sumar x es lo mismo que dejar en el medio el subarray más largo que sume total - x; ese lo busco con ventana deslizante.
+# Idea: sacar de las puntas hasta sumar x es lo mismo que dejar en el medio el subarray más largo
+#       que sume total - x; ese lo busco con ventana deslizante.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

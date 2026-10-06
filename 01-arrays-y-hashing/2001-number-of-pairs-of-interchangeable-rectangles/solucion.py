@@ -1,7 +1,8 @@
 # 2001. Number of Pairs of Interchangeable Rectangles (Media)
 # https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/
 #
-# Idea: dos rectángulos son intercambiables si tienen la misma proporción; la guardo como fracción reducida (con gcd, sin floats) y cada grupo de c rectángulos suma c·(c-1)/2 pares.
+# Idea: dos rectángulos son intercambiables si tienen la misma proporción; la guardo como fracción
+#       reducida (con gcd, sin floats) y cada grupo de c rectángulos suma c·(c-1)/2 pares.
 # Tiempo: O(n log M) · Espacio: O(n)
 
 from collections import Counter

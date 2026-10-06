@@ -1,7 +1,8 @@
 # 523. Continuous Subarray Sum (Media)
 # https://leetcode.com/problems/continuous-subarray-sum/
 #
-# Idea: si dos sumas prefijas dan el mismo resto módulo k, lo que hay entre ellas es múltiplo de k; guardo el primer índice de cada resto y pido que estén a distancia ≥ 2.
+# Idea: si dos sumas prefijas dan el mismo resto módulo k, lo que hay entre ellas es múltiplo de k;
+#       guardo el primer índice de cada resto y pido que estén a distancia ≥ 2.
 # Tiempo: O(n) · Espacio: O(min(n, k))
 
 from typing import List

@@ -1,7 +1,8 @@
 # 19. Remove Nth Node From End of List (Media)
 # https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 #
-# Idea: adelanto un puntero n pasos y después muevo los dos juntos; cuando el adelantado llega al final, el otro quedó justo antes del nodo a borrar.
+# Idea: adelanto un puntero n pasos y después muevo los dos juntos; cuando el adelantado llega al
+#       final, el otro quedó justo antes del nodo a borrar.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

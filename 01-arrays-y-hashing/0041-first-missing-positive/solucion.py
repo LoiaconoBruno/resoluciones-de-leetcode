@@ -1,7 +1,8 @@
 # 41. First Missing Positive (Difícil)
 # https://leetcode.com/problems/first-missing-positive/
 #
-# Idea: la respuesta está entre 1 y n + 1; ubico cada número v (1 ≤ v ≤ n) en la posición v - 1 con intercambios y después busco la primera posición que no tiene su número.
+# Idea: la respuesta está entre 1 y n + 1; ubico cada número v (1 ≤ v ≤ n) en la posición v - 1 con
+#       intercambios y después busco la primera posición que no tiene su número.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

@@ -1,7 +1,8 @@
 # 74. Search a 2D Matrix (Media)
 # https://leetcode.com/problems/search-a-2d-matrix/
 #
-# Idea: la matriz leída fila por fila es un array ordenado; hago búsqueda binaria sobre índices 0..f·c-1 y convierto cada índice en (i // c, i % c).
+# Idea: la matriz leída fila por fila es un array ordenado; hago búsqueda binaria sobre índices
+#       0..f·c-1 y convierto cada índice en (i // c, i % c).
 # Tiempo: O(log(f · c)) · Espacio: O(1)
 
 from typing import List

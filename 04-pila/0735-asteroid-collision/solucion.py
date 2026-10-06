@@ -1,7 +1,8 @@
 # 735. Asteroid Collision (Media)
 # https://leetcode.com/problems/asteroid-collision/
 #
-# Idea: solo chocan un asteroide que va a la derecha (en la pila) con uno que llega yendo a la izquierda; resuelvo los choques contra el tope de la pila hasta que el nuevo explota o pasa.
+# Idea: solo chocan un asteroide que va a la derecha (en la pila) con uno que llega yendo a la
+#       izquierda; resuelvo los choques contra el tope de la pila hasta que el nuevo explota o pasa.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

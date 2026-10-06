@@ -1,7 +1,8 @@
 # 1343. Number of Sub Arrays of Size K and Avg Greater than or Equal to Threshold (Media)
 # https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
 #
-# Idea: ventana fija de k: sumo el que entra, resto el que sale y comparo la suma contra k · threshold (así evito dividir).
+# Idea: ventana fija de k: sumo el que entra, resto el que sale y comparo la suma contra k ·
+#       threshold (así evito dividir).
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

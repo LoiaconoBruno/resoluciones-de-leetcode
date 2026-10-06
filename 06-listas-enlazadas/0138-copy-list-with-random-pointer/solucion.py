@@ -1,7 +1,8 @@
 # 138. Copy List With Random Pointer (Media)
 # https://leetcode.com/problems/copy-list-with-random-pointer/
 #
-# Idea: dos pasadas con un diccionario original -> copia: en la primera creo todas las copias y en la segunda conecto next y random usando el diccionario.
+# Idea: dos pasadas con un diccionario original -> copia: en la primera creo todas las copias y en
+#       la segunda conecto next y random usando el diccionario.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import Optional

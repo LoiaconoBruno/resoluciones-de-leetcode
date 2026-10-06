@@ -1,7 +1,8 @@
 # 705. Design HashSet (Fácil)
 # https://leetcode.com/problems/design-hashset/
 #
-# Idea: un array de cubetas; la clave va a la cubeta key % tamaño y cada cubeta es una lista (encadenamiento para las colisiones).
+# Idea: un array de cubetas; la clave va a la cubeta key % tamaño y cada cubeta es una lista
+#       (encadenamiento para las colisiones).
 # Tiempo: O(1) promedio por operación · Espacio: O(n)
 
 class MyHashSet:

@@ -1,7 +1,8 @@
 # 128. Longest Consecutive Sequence (Media)
 # https://leetcode.com/problems/longest-consecutive-sequence/
 #
-# Idea: meto todo en un set; un número arranca una secuencia solo si n - 1 no está, y desde ahí cuento hacia arriba.
+# Idea: meto todo en un set; un número arranca una secuencia solo si n - 1 no está, y desde ahí
+#       cuento hacia arriba.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

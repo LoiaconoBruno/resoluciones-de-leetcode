@@ -1,7 +1,8 @@
 # 80. Remove Duplicates From Sorted Array II (Media)
 # https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 #
-# Idea: igual que la versión I, pero comparo contra el que está dos lugares atrás en la parte ya armada: si es distinto, este número todavía no apareció dos veces.
+# Idea: igual que la versión I, pero comparo contra el que está dos lugares atrás en la parte ya
+#       armada: si es distinto, este número todavía no apareció dos veces.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

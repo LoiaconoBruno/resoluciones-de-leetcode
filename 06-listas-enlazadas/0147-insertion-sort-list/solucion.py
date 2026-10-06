@@ -1,7 +1,8 @@
 # 147. Insertion Sort List (Media)
 # https://leetcode.com/problems/insertion-sort-list/
 #
-# Idea: voy armando una lista ordenada detrás de un nodo ficticio; si el nodo nuevo es mayor o igual que el último ordenado queda donde está, si no, lo saco y lo inserto en su lugar.
+# Idea: voy armando una lista ordenada detrás de un nodo ficticio; si el nodo nuevo es mayor o igual
+#       que el último ordenado queda donde está, si no, lo saco y lo inserto en su lugar.
 # Tiempo: O(n²) · Espacio: O(1)
 
 from typing import Optional

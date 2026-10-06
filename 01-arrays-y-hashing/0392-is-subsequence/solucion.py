@@ -1,7 +1,8 @@
 # 392. Is Subsequence (Fácil)
 # https://leetcode.com/problems/is-subsequence/
 #
-# Idea: un puntero en s y otro en t; avanzo siempre en t y solo avanzo en s cuando las letras coinciden.
+# Idea: un puntero en s y otro en t; avanzo siempre en t y solo avanzo en s cuando las letras
+#       coinciden.
 # Tiempo: O(len(t)) · Espacio: O(1)
 
 class Solution:

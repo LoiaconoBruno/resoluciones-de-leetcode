@@ -1,7 +1,8 @@
 # 424. Longest Repeating Character Replacement (Media)
 # https://leetcode.com/problems/longest-repeating-character-replacement/
 #
-# Idea: una ventana sirve si (largo - frecuencia de la letra más común) ≤ k, porque esas son las letras a cambiar; si no sirve, achico desde la izquierda.
+# Idea: una ventana sirve si (largo - frecuencia de la letra más común) ≤ k, porque esas son las
+#       letras a cambiar; si no sirve, achico desde la izquierda.
 # Tiempo: O(n) · Espacio: O(1) (26 letras)
 
 class Solution:

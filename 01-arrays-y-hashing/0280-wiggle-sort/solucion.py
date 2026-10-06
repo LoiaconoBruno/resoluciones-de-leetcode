@@ -1,7 +1,8 @@
 # 280. Wiggle Sort (Media)
 # https://www.lintcode.com/problem/508/
 #
-# Idea: en las posiciones impares tiene que haber un "pico" y en las pares un "valle"; recorro una vez y, si un par de vecinos no cumple, los intercambio.
+# Idea: en las posiciones impares tiene que haber un "pico" y en las pares un "valle"; recorro una
+#       vez y, si un par de vecinos no cumple, los intercambio.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

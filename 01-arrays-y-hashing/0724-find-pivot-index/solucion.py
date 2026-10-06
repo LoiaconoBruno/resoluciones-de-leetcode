@@ -1,7 +1,8 @@
 # 724. Find Pivot Index (Fácil)
 # https://leetcode.com/problems/find-pivot-index/
 #
-# Idea: con la suma total, la suma de la derecha es total - izquierda - nums[i]; busco el primer i donde las dos sumas coinciden.
+# Idea: con la suma total, la suma de la derecha es total - izquierda - nums[i]; busco el primer i
+#       donde las dos sumas coinciden.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

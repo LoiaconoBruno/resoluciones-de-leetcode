@@ -1,7 +1,8 @@
 # 35. Search Insert Position (Fácil)
 # https://leetcode.com/problems/search-insert-position/
 #
-# Idea: búsqueda binaria normal; si no lo encuentro, izq termina justo en la posición donde habría que insertarlo.
+# Idea: búsqueda binaria normal; si no lo encuentro, izq termina justo en la posición donde habría
+#       que insertarlo.
 # Tiempo: O(log n) · Espacio: O(1)
 
 from typing import List

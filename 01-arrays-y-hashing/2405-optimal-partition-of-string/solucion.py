@@ -1,7 +1,8 @@
 # 2405. Optimal Partition of String (Media)
 # https://leetcode.com/problems/optimal-partition-of-string/
 #
-# Idea: greedy: estiro la parte actual lo más posible y corto recién cuando aparece una letra repetida.
+# Idea: greedy: estiro la parte actual lo más posible y corto recién cuando aparece una letra
+#       repetida.
 # Tiempo: O(n) · Espacio: O(1) (26 letras)
 
 class Solution:

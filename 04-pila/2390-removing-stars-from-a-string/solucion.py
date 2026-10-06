@@ -1,7 +1,8 @@
 # 2390. Removing Stars From a String (Media)
 # https://leetcode.com/problems/removing-stars-from-a-string/
 #
-# Idea: apilo las letras y cada estrella saca la última apilada, que es justo la letra más cercana a su izquierda.
+# Idea: apilo las letras y cada estrella saca la última apilada, que es justo la letra más cercana a
+#       su izquierda.
 # Tiempo: O(n) · Espacio: O(n)
 
 class Solution:

@@ -1,7 +1,8 @@
 # 203. Remove Linked List Elements (Fácil)
 # https://leetcode.com/problems/remove-linked-list-elements/
 #
-# Idea: con un nodo ficticio adelante, recorro mirando el siguiente: si tiene el valor, lo salteo; si no, avanzo.
+# Idea: con un nodo ficticio adelante, recorro mirando el siguiente: si tiene el valor, lo salteo;
+#       si no, avanzo.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

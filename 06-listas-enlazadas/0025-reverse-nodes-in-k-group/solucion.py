@@ -1,7 +1,8 @@
 # 25. Reverse Nodes In K Group (Difícil)
 # https://leetcode.com/problems/reverse-nodes-in-k-group/
 #
-# Idea: por cada grupo busco el k-ésimo nodo (si no hay k nodos, dejo el resto como está), doy vuelta el grupo y lo reengancho entre el grupo anterior y el siguiente.
+# Idea: por cada grupo busco el k-ésimo nodo (si no hay k nodos, dejo el resto como está), doy
+#       vuelta el grupo y lo reengancho entre el grupo anterior y el siguiente.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

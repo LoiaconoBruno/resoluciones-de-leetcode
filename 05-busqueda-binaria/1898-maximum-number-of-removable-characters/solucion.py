@@ -1,7 +1,8 @@
 # 1898. Maximum Number of Removable Characters (Media)
 # https://leetcode.com/problems/maximum-number-of-removable-characters/
 #
-# Idea: si puedo sacar k caracteres, también puedo sacar menos; eso permite búsqueda binaria sobre k, chequeando cada vez si p sigue siendo subsecuencia.
+# Idea: si puedo sacar k caracteres, también puedo sacar menos; eso permite búsqueda binaria sobre
+#       k, chequeando cada vez si p sigue siendo subsecuencia.
 # Tiempo: O(n log n) · Espacio: O(n)
 
 from typing import List

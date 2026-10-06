@@ -1,7 +1,8 @@
 # 1984. Minimum Difference Between Highest And Lowest of K Scores (Fácil)
 # https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/
 #
-# Idea: ordeno; los k elegidos conviene que sean consecutivos, así que deslizo una ventana de k y miro último - primero.
+# Idea: ordeno; los k elegidos conviene que sean consecutivos, así que deslizo una ventana de k y
+#       miro último - primero.
 # Tiempo: O(n log n) · Espacio: O(1) extra
 
 from typing import List

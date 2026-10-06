@@ -1,7 +1,8 @@
 # 3. Longest Substring Without Repeating Characters (Media)
 # https://leetcode.com/problems/longest-substring-without-repeating-characters/
 #
-# Idea: ventana [izq, der] sin repetidos; guardo la última posición de cada letra y, si la letra que entra ya está en la ventana, salto izq justo después de esa posición.
+# Idea: ventana [izq, der] sin repetidos; guardo la última posición de cada letra y, si la letra que
+#       entra ya está en la ventana, salto izq justo después de esa posición.
 # Tiempo: O(n) · Espacio: O(min(n, alfabeto))
 
 class Solution:

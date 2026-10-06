@@ -1,7 +1,8 @@
 # 1822. Sign of An Array (Fácil)
 # https://leetcode.com/problems/sign-of-the-product-of-an-array/
 #
-# Idea: no hace falta multiplicar: si hay un 0 el signo es 0; si no, depende de si la cantidad de negativos es par o impar.
+# Idea: no hace falta multiplicar: si hay un 0 el signo es 0; si no, depende de si la cantidad de
+#       negativos es par o impar.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

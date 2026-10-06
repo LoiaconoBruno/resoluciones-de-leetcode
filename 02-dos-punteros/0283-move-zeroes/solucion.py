@@ -1,7 +1,8 @@
 # 283. Move Zeroes (Fácil)
 # https://leetcode.com/problems/move-zeroes/
 #
-# Idea: un puntero marca dónde va el próximo no-cero; cada no-cero que encuentro lo intercambio a esa posición y los ceros quedan atrás solos.
+# Idea: un puntero marca dónde va el próximo no-cero; cada no-cero que encuentro lo intercambio a
+#       esa posición y los ceros quedan atrás solos.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

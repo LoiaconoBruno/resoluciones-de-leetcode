@@ -1,7 +1,8 @@
 # 1968. Array With Elements Not Equal to Average of Neighbors (Media)
 # https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/
 #
-# Idea: ordeno e intercambio cada par (1,2), (3,4), ...; así cada número queda como pico o como valle respecto de sus vecinos, y un pico o un valle nunca es el promedio.
+# Idea: ordeno e intercambio cada par (1,2), (3,4), ...; así cada número queda como pico o como
+#       valle respecto de sus vecinos, y un pico o un valle nunca es el promedio.
 # Tiempo: O(n log n) · Espacio: O(1) extra
 
 from typing import List

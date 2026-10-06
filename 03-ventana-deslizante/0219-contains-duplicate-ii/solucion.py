@@ -1,7 +1,8 @@
 # 219. Contains Duplicate II (Fácil)
 # https://leetcode.com/problems/contains-duplicate-ii/
 #
-# Idea: mantengo en un set los últimos k números (la ventana); si el que entra ya está en el set, hay un duplicado a distancia ≤ k.
+# Idea: mantengo en un set los últimos k números (la ventana); si el que entra ya está en el set,
+#       hay un duplicado a distancia ≤ k.
 # Tiempo: O(n) · Espacio: O(k)
 
 from typing import List

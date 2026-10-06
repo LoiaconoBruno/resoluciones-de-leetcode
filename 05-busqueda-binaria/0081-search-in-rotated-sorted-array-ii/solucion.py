@@ -1,7 +1,8 @@
 # 81. Search In Rotated Sorted Array II (Media)
 # https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 #
-# Idea: igual que la versión sin repetidos, pero si nums[izq] == nums[medio] no sé qué mitad está ordenada; en ese caso descarto izq y sigo.
+# Idea: igual que la versión sin repetidos, pero si nums[izq] == nums[medio] no sé qué mitad está
+#       ordenada; en ese caso descarto izq y sigo.
 # Tiempo: O(log n) promedio, O(n) en el peor caso (muchos repetidos) · Espacio: O(1)
 
 from typing import List

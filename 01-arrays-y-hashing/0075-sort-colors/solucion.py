@@ -1,7 +1,8 @@
 # 75. Sort Colors (Media)
 # https://leetcode.com/problems/sort-colors/
 #
-# Idea: bandera holandesa: tres punteros; los 0 van al principio, los 2 al final y los 1 quedan en el medio, en una sola pasada.
+# Idea: bandera holandesa: tres punteros; los 0 van al principio, los 2 al final y los 1 quedan en
+#       el medio, en una sola pasada.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

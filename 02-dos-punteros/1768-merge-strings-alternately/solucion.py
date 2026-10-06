@@ -1,7 +1,8 @@
 # 1768. Merge Strings Alternately (Fácil)
 # https://leetcode.com/problems/merge-strings-alternately/
 #
-# Idea: un índice para cada palabra; tomo una letra de cada una por turno y al final pego lo que sobre de la más larga.
+# Idea: un índice para cada palabra; tomo una letra de cada una por turno y al final pego lo que
+#       sobre de la más larga.
 # Tiempo: O(n + m) · Espacio: O(n + m)
 
 class Solution:

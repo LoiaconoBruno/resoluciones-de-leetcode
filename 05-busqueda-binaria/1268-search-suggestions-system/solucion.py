@@ -1,7 +1,8 @@
 # 1268. Search Suggestions System (Media)
 # https://leetcode.com/problems/search-suggestions-system/
 #
-# Idea: ordeno los productos; para cada prefijo, búsqueda binaria de la primera palabra ≥ prefijo y tomo hasta 3 desde ahí que empiecen con ese prefijo.
+# Idea: ordeno los productos; para cada prefijo, búsqueda binaria de la primera palabra ≥ prefijo y
+#       tomo hasta 3 desde ahí que empiecen con ese prefijo.
 # Tiempo: O(n log n + m · log n), con m el largo de searchWord · Espacio: O(1) extra (sin contar la respuesta)
 
 from bisect import bisect_left

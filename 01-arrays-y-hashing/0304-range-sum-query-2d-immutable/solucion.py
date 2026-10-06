@@ -1,7 +1,8 @@
 # 304. Range Sum Query 2D Immutable (Media)
 # https://leetcode.com/problems/range-sum-query-2d-immutable/
 #
-# Idea: sumas prefijas en 2D: pre[f][c] es la suma del rectángulo desde (0,0); cualquier región sale con inclusión-exclusión de cuatro valores.
+# Idea: sumas prefijas en 2D: pre[f][c] es la suma del rectángulo desde (0,0); cualquier región sale
+#       con inclusión-exclusión de cuatro valores.
 # Tiempo: O(filas · columnas) para construir, O(1) por consulta · Espacio: O(filas · columnas)
 
 from typing import List

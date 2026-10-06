@@ -1,7 +1,8 @@
 # 225. Implement Stack Using Queues (Fácil)
 # https://leetcode.com/problems/implement-stack-using-queues/
 #
-# Idea: con una sola cola: después de cada push roto la cola para que el recién llegado quede adelante; así el frente de la cola es el tope de la pila.
+# Idea: con una sola cola: después de cada push roto la cola para que el recién llegado quede
+#       adelante; así el frente de la cola es el tope de la pila.
 # Tiempo: O(n) push, O(1) el resto · Espacio: O(n)
 
 from collections import deque

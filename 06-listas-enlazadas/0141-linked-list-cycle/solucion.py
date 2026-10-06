@@ -1,7 +1,8 @@
 # 141. Linked List Cycle (Fácil)
 # https://leetcode.com/problems/linked-list-cycle/
 #
-# Idea: tortuga y liebre (Floyd): una avanza de a 1 y otra de a 2; si hay ciclo, la rápida termina alcanzando a la lenta.
+# Idea: tortuga y liebre (Floyd): una avanza de a 1 y otra de a 2; si hay ciclo, la rápida termina
+#       alcanzando a la lenta.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

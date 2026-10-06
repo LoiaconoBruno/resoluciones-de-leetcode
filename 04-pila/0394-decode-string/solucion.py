@@ -1,7 +1,8 @@
 # 394. Decode String (Media)
 # https://leetcode.com/problems/decode-string/
 #
-# Idea: al abrir '[' guardo en la pila lo armado hasta ahí y el número de repeticiones; al cerrar ']' repito lo de adentro y lo pego a lo que había guardado.
+# Idea: al abrir '[' guardo en la pila lo armado hasta ahí y el número de repeticiones; al cerrar
+#       ']' repito lo de adentro y lo pego a lo que había guardado.
 # Tiempo: O(largo de la respuesta) · Espacio: O(largo de la respuesta)
 
 class Solution:

@@ -1,7 +1,8 @@
 # 179. Largest Number (Media)
 # https://leetcode.com/problems/largest-number/
 #
-# Idea: ordeno los números como strings con un comparador: a va antes que b si a + b > b + a. Cuidado con el caso de todos ceros.
+# Idea: ordeno los números como strings con un comparador: a va antes que b si a + b > b + a.
+#       Cuidado con el caso de todos ceros.
 # Tiempo: O(n log n · k), con k la cantidad de dígitos · Espacio: O(n · k)
 
 from functools import cmp_to_key

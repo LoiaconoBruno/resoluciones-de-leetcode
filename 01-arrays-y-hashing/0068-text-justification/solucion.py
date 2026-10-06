@@ -1,7 +1,9 @@
 # 68. Text Justification (Difícil)
 # https://leetcode.com/problems/text-justification/
 #
-# Idea: meto palabras en la línea mientras entren; al cerrarla reparto los espacios sobrantes entre los huecos (los de la izquierda reciben uno más). La última línea va alineada a la izquierda.
+# Idea: meto palabras en la línea mientras entren; al cerrarla reparto los espacios sobrantes entre
+#       los huecos (los de la izquierda reciben uno más). La última línea va alineada a la
+#       izquierda.
 # Tiempo: O(total de caracteres) · Espacio: O(maxWidth) extra
 
 from typing import List

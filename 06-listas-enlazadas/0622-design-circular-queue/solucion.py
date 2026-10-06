@@ -1,7 +1,8 @@
 # 622. Design Circular Queue (Media)
 # https://leetcode.com/problems/design-circular-queue/
 #
-# Idea: array fijo de tamaño k, el índice del frente y la cantidad de elementos; el fondo está en (frente + cantidad - 1) % k, así los índices dan la vuelta.
+# Idea: array fijo de tamaño k, el índice del frente y la cantidad de elementos; el fondo está en
+#       (frente + cantidad - 1) % k, así los índices dan la vuelta.
 # Tiempo: O(1) por operación · Espacio: O(k)
 
 class MyCircularQueue:

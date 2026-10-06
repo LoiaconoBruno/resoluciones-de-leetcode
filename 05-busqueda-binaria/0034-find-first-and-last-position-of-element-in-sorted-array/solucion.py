@@ -1,7 +1,8 @@
 # 34. Find First And Last Position of Element In Sorted Array (Media)
 # https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 #
-# Idea: dos búsquedas binarias: una que, al encontrar el target, sigue buscando a la izquierda (primera aparición) y otra que sigue a la derecha (última).
+# Idea: dos búsquedas binarias: una que, al encontrar el target, sigue buscando a la izquierda
+#       (primera aparición) y otra que sigue a la derecha (última).
 # Tiempo: O(log n) · Espacio: O(1)
 
 from typing import List

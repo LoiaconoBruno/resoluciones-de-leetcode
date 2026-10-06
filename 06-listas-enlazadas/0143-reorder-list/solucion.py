@@ -1,7 +1,8 @@
 # 143. Reorder List (Media)
 # https://leetcode.com/problems/reorder-list/
 #
-# Idea: tres pasos: encuentro el medio (lenta/rápida), doy vuelta la segunda mitad y después intercalo las dos mitades.
+# Idea: tres pasos: encuentro el medio (lenta/rápida), doy vuelta la segunda mitad y después
+#       intercalo las dos mitades.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

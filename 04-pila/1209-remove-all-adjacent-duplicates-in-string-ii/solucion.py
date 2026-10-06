@@ -1,7 +1,8 @@
 # 1209. Remove All Adjacent Duplicates In String II (Media)
 # https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
 #
-# Idea: pila de [letra, cuántas seguidas]; si llega la misma letra sumo uno y, cuando llego a k, saco ese grupo entero.
+# Idea: pila de [letra, cuántas seguidas]; si llega la misma letra sumo uno y, cuando llego a k,
+#       saco ese grupo entero.
 # Tiempo: O(n) · Espacio: O(n)
 
 class Solution:

@@ -1,7 +1,8 @@
 # 206. Reverse Linked List (Fácil)
 # https://leetcode.com/problems/reverse-linked-list/
 #
-# Idea: recorro la lista dando vuelta cada flecha: guardo el siguiente, apunto el actual al anterior y avanzo.
+# Idea: recorro la lista dando vuelta cada flecha: guardo el siguiente, apunto el actual al anterior
+#       y avanzo.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import Optional

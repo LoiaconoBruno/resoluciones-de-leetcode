@@ -1,7 +1,8 @@
 # 1396. Design Underground System (Media)
 # https://leetcode.com/problems/design-underground-system/
 #
-# Idea: un diccionario con quién entró dónde y cuándo; al salir, sumo el tiempo del viaje a (origen, destino) junto con la cantidad de viajes.
+# Idea: un diccionario con quién entró dónde y cuándo; al salir, sumo el tiempo del viaje a (origen,
+#       destino) junto con la cantidad de viajes.
 # Tiempo: O(1) por operación · Espacio: O(P + S²), pasajeros y pares de estaciones
 
 from collections import defaultdict

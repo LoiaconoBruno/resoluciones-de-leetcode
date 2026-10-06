@@ -1,7 +1,8 @@
 # 27. Remove Element (Fácil)
 # https://leetcode.com/problems/remove-element/
 #
-# Idea: un puntero k marca dónde va el próximo número que se queda; copio ahí todo lo que no sea val.
+# Idea: un puntero k marca dónde va el próximo número que se queda; copio ahí todo lo que no sea
+#       val.
 # Tiempo: O(n) · Espacio: O(1)
 
 from typing import List

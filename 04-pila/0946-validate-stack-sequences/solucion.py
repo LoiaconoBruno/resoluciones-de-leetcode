@@ -1,7 +1,8 @@
 # 946. Validate Stack Sequences (Media)
 # https://leetcode.com/problems/validate-stack-sequences/
 #
-# Idea: simulo: apilo en el orden de pushed y, cada vez que el tope coincide con el próximo de popped, lo saco. Si al final la pila queda vacía, la secuencia era posible.
+# Idea: simulo: apilo en el orden de pushed y, cada vez que el tope coincide con el próximo de
+#       popped, lo saco. Si al final la pila queda vacía, la secuencia era posible.
 # Tiempo: O(n) · Espacio: O(n)
 
 from typing import List

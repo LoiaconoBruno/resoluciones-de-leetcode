@@ -1,7 +1,8 @@
 # 901. Online Stock Span (Media)
 # https://leetcode.com/problems/online-stock-span/
 #
-# Idea: pila de (precio, span) decreciente; un precio nuevo se "come" a todos los menores o iguales de la pila sumando sus spans.
+# Idea: pila de (precio, span) decreciente; un precio nuevo se "come" a todos los menores o iguales
+#       de la pila sumando sus spans.
 # Tiempo: O(1) amortizado por llamada · Espacio: O(n)
 
 class StockSpanner:
