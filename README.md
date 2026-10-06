@@ -93,24 +93,24 @@ Problemas de LeetCode explicados en español, con dibujo y código en Python. Un
 
 | # | Problema | Dificultad | Video | Solución |
 |---:|---|---|:---:|:---:|
-| 125 | [Valid Palindrome ⭐](https://leetcode.com/problems/valid-palindrome/) | 🟢 Fácil | 🔜 | 🔜 |
-| 167 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Media | 🔜 | 🔜 |
-| 15 | [3Sum ⭐](https://leetcode.com/problems/3sum/) | 🟡 Media | 🔜 | 🔜 |
-| 11 | [Container With Most Water ⭐](https://leetcode.com/problems/container-with-most-water/) | 🟡 Media | 🔜 | 🔜 |
-| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Difícil | 🔜 | 🔜 |
-| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Fácil | 🔜 | 🔜 |
-| 1984 | [Minimum Difference Between Highest And Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Fácil | 🔜 | 🔜 |
-| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Fácil | 🔜 | 🔜 |
-| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 Fácil | 🔜 | 🔜 |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Fácil | 🔜 | 🔜 |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Fácil | 🔜 | 🔜 |
-| 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Fácil | 🔜 | 🔜 |
-| 80 | [Remove Duplicates From Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Media | 🔜 | 🔜 |
-| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Media | 🔜 | 🔜 |
-| 1498 | [Number of Subsequences That Satisfy The Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | 🟡 Media | 🔜 | 🔜 |
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Media | 🔜 | 🔜 |
-| 1968 | [Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/) | 🟡 Media | 🔜 | 🔜 |
-| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Media | 🔜 | 🔜 |
+| 125 | [Valid Palindrome ⭐](https://leetcode.com/problems/valid-palindrome/) | 🟢 Fácil | 🔜 | [Python](02-dos-punteros/0125-valid-palindrome/) |
+| 167 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/0167-two-sum-ii-input-array-is-sorted/) |
+| 15 | [3Sum ⭐](https://leetcode.com/problems/3sum/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/0015-3sum/) |
+| 11 | [Container With Most Water ⭐](https://leetcode.com/problems/container-with-most-water/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/0011-container-with-most-water/) |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Difícil | 🔜 | [Python](02-dos-punteros/0042-trapping-rain-water/) |
+| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Fácil | 🔜 | [Python](02-dos-punteros/0680-valid-palindrome-ii/) |
+| 1984 | [Minimum Difference Between Highest And Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Fácil | 🔜 | [Python](02-dos-punteros/1984-minimum-difference-between-highest-and-lowest-of-k-scores/) |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Fácil | 🔜 | [Python](02-dos-punteros/1768-merge-strings-alternately/) |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 Fácil | 🔜 | [Python](02-dos-punteros/0344-reverse-string/) |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Fácil | 🔜 | [Python](02-dos-punteros/0088-merge-sorted-array/) |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Fácil | 🔜 | [Python](02-dos-punteros/0283-move-zeroes/) |
+| 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Fácil | 🔜 | [Python](02-dos-punteros/0026-remove-duplicates-from-sorted-array/) |
+| 80 | [Remove Duplicates From Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/0080-remove-duplicates-from-sorted-array-ii/) |
+| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/0018-4sum/) |
+| 1498 | [Number of Subsequences That Satisfy The Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/0189-rotate-array/) |
+| 1968 | [Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/1968-array-with-elements-not-equal-to-average-of-neighbors/) |
+| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Media | 🔜 | [Python](02-dos-punteros/0881-boats-to-save-people/) |
 
 </details>
 
